@@ -1,0 +1,68 @@
+.nav-nav{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.frist-word{
+    margin-left: 50px;
+}
+ .second-word{
+    margin-left: 50px;
+ }
+.third-word{
+    margin-left: 50px;
+}
+.forth-word{
+    margin-left: 50px;
+}
+*{
+    background-color: crimson;
+
+}
+
+h1,h2,h3 {
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+div {
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+}
+p {
+    display: grid;
+    background-color: yellow;
+    padding: 20px;
+  }
+  
+  nav{
+    text-align: center;
+    display: none;
+  }
+
+  article::before {
+    content: url('https://i.postimg.cc/L6jmmFHm/Hi-How-Are-You-700x528.png');
+}
+nav
+    a:link {
+        color: #FF0000;
+        
+}
+nav
+ a:visited {
+    color: #00FF00;
+}
+
+@media screen and (max-width:700px){
+    body{
+        background-color: peru;
+    }
+    
+}
+
+p[title]{
+color: rgb(180, 200, 250)
+}
